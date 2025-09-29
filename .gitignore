@@ -1,0 +1,34 @@
+# Build output
+bin/
+obj/
+
+# Common configuration-specific folders
+Debug/
+Release/
+x64/
+x86/
+ARM/
+ARM64/
+
+# Visual Studio/JetBrains rider caches
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+# Keep packages folder if you commit restore markers
+!packages/build/
+!packages/repositories.config
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
